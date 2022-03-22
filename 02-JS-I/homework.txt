@@ -1,0 +1,23 @@
+# Homework: Introducción a Javascript
+
+---
+
+## Instrucciones
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+ VARIABLES: Las variables son un espacio donde guardamos información para utilizar luego. Es decir, la variable seria como una cartuchera donde puedo tener lapices, gomas, lapiceras, etc. Cuando necesito una de ellas voy a buscarla, puedo tambien cambiar su contenido.
+
+ STRINGS: Son un conjuto de caracteres que van siempre entre comillas "". Dentro de estas comillas pueden ir numero como letras, frases. Ejemplo "Hola"; "tengo 20 años";" ";
+
+ FUNCIONES: Las funciones son un conjunto de instrucciones para poder realizar una tarea. Estas instrucciones son reutilizables, pudiendo ahorrar tiempo en vez escribir codigo una y otra vez. La funcion nos pide que le demos un dato para poder seguir instrucciones y devolvernos un resultado en base al dato que le dimos. Por ejemplo, si quisiera hacer una suma; podria escribir en un papel y realizar la suma manualmente o podria tambien usar una calculadora. En este caso la calculadora cumple el papel de funcion.
+
+ DECLARACIONES: Las declaraciones son instrucciones para hacer una tarea. Por si solas no retornan un resultado. 
+
+ VALORES BOOLEANOS: Los valores booleanos se basan en solo 2 valores. True y False. Estos son sus dos estados. Si imaginamos por ejemplo una lamparita, sus unicos dos estados son prendida o apagada. Aca sucede lo mismo.
