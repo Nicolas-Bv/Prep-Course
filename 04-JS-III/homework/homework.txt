@@ -1,0 +1,10 @@
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+
+ARRAYS: Los arrays son una lista de datos, estos se encierra entre corchetes []. Si pensamos a los arrays como una lista, podemos meter en ella cualquier tipo de dato. ejemplo:
+ listaDeCompras = [verduras, legumbres, servilletas, agua]
+En esta lista no todos los elementos que contienen son los mismos: hay alimentos, hay bebibles y papel. 
+Si lo comparamos con tipos de valores, podriamos decir variosTiposDeDatos = [1, "hola", undefined, 22, true, [1,2,3]]
+Esta lista puede guardar varios tipos de datos. Podemos recorrerla teniendo en cuenta la posicion de cada dato y tambien modificarla.
