@@ -1,0 +1,74 @@
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+
+OBJETOS: Los objetos son un conjunto de caracteristicas que van a estar relacionadas al objeto en si. Es decir, si mi objeto por ejemplo es una persona, esta persona va a tener caracteristicas que pueden ser: nombre, edad, hobbies, etc.
+
+PROPIEDADES: Siguiendo la linea del objeto "persona", las propiedades serian las caracteristicas nombradas previamente. En otro ejemplo: si mi objeto es "guitarra", las propiedades podrian ser "madera","microfono","cuerdas",etc. Las propiedades pueden contener valores asignados. Las propiedades funcionarian como variables dentro del objeto. Por ejemplo:
+
+var guitarra={
+            marca: "Fender",
+            madera: "Arce",
+            microfono: "Epiphone",
+            cuerdas: "Elixir",
+
+}
+
+METODOS: Dentro del objeto puedo tener distintos tipos de datos, cuando uno de esos datos (por ejemplo una funcion) puede generar una accion, se le llama metodo. Ejemplo:
+
+var perro={
+        nombre: "firulais",
+        años: 5 ,
+        raza: "mestizo",
+        ladrido: function ladrar(){
+            console.log("guau!!")
+        }
+}
+
+
+BUCLE FOR...IN: El bucle For In lo que hace es recorrer el objeto y cada una de sus propiedades. Al no tener indices numericos como los arrays, no podemos recorrerlo con on un bucle for normal. Esto funciona de la siguiente manera:
+
+abro el bucle for y le asigno a la variable que la va a recorrer las propiedades del objeto un nombre, seguido del IN y luego el objeto que queremos recorrer:
+
+for (variable IN perro){
+    *tarea a ejecutar*
+}
+
+Esto lo que va a hacer es recorrer cada una de las propiedades designadas que tiene el objeto perro. Y luego realizar la accion que tenga dentro de las llaves. Por ejemplo:
+
+for (variable in perro){
+    console.log(variable)  --> deberia decime el nombre de cada una de las propiedades: nombre, años,raza, ladrido
+}
+
+si quisiera saber el valor de cada una de las propiedades :
+
+for (variable in perro){
+    console.log(perro[variable]) 
+}
+
+
+NOTACION DE PUNTOS VS NOTACION DE CORCHETES: Para poder acceder a un elemento del objeto, podemos ir metiendonos dentro de cada uno de ellos. Lo podemos hacer de dos formas. Una es por medio de la notacion de puntos:
+
+
+var perro={
+        nombre: "firulais",
+        años: 5 ,
+        raza: "mestizo",
+        ladrido: function ladrar(){
+            console.log("guau!!")
+        }
+}
+
+para acceder por ejemplo a la propiedad "raza" deberiamos escribir: perro.raza
+Entra al objeto perro y luego busca la propiedad raza.
+Tambien se puede hacer desde la notacion de corchetes:
+
+perro["raza"]
+
+Si vemos que dentro de los corchetes la propiedad no tiene comillas es porque se trata de una variable.
